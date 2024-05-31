@@ -307,6 +307,7 @@ public class IslandWarpGui extends GuiScreen {
         THE_BARN("The Barn", 1125, 800),
         HUB("Hub", 300, 724),
         PRIVATE_ISLAND("Private Island", 275, 1122),
+        GARDEN("Garden", 250, 100),
         DUNGEON_HUB("Dungeon Hub", 1500, 1050);
 
         private final String label;
@@ -353,6 +354,7 @@ public class IslandWarpGui extends GuiScreen {
     @Getter
     public enum Marker {
         PRIVATE_ISLAND("home", Translations.getMessage("warpMenu.home"), Island.PRIVATE_ISLAND, true, 72, 90),
+        GARDEN("garden", Translations.getMessage("warpMenu.garden"), Island.GARDEN, true, 50, 75),
 
         HUB("hub", Translations.getMessage("warpMenu.spawn"), Island.HUB, true, 600, 200),
         CASTLE("castle", "Castle", Island.HUB, 130, 80),
